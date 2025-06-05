@@ -1,0 +1,675 @@
+/* -------------------Navbar section */
+#Navbar{
+  -webkit-backdrop-filter:blur(20px);
+  backdrop-filter: blur(20px);
+  box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+  border: 1.5px solid rgba(255, 255, 255, 0.18);
+  height: 10vh;
+  position: relative;
+  z-index: 10;
+}
+.fixed.inset-0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.bg-opacity-90 {
+  background-color: rgba(0, 0, 0, 0.791);
+}
+#MobileLinks{
+  height: 100vh;
+}
+
+/* --------------------Home-page--------------- */
+#Home{
+  height: 120vh;
+  margin-top: -10vh;
+  background-image: linear-gradient(to right, white 61%, rgb(41, 41, 205) 39%);
+}
+#program-1{
+  background-image: url(./assets//h-program-1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+#program-2{
+  background-image: url(./assets//h-program-2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+#program-3{
+  background-image: url(./assets//h-program-3.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+#h-contact{
+  background-image: url(./assets/h-contact.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+/* ---------------------About Page------------------------ */
+#About{
+  margin-top: -10vh;
+  background-image: url(./assets/about-page.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#about-section{
+  -webkit-backdrop-filter:blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.993);
+  border: 1.5px solid rgba(0, 0, 0, 0.18);
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  overflow: hidden;
+}
+/* --------------------Program Page----------------- */
+#Program{
+  margin-top: -10vh;
+  background-image: url(./assets/program-page.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#program-section{
+  -webkit-backdrop-filter:blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.993);
+  border: 1.5px solid rgba(0, 0, 0, 0.18);
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  overflow: hidden;
+}
+#sub-program{
+  height: 140vh;
+}
+/* -----------------Donate Page---------------- */
+#Donate{
+  margin-top: -10vh;
+  background-image: url(./assets/donate-page.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#donate-section{
+  -webkit-backdrop-filter:blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.993);
+  border: 1.5px solid rgba(0, 0, 0, 0.18);
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  overflow: hidden;
+}
+#d-b-f-section{
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.993);
+  border: 1.5px solid rgba(0, 0, 0, 0.18);
+}
+/* -------------Events Page------------------- */
+#Events{
+  margin-top: -10vh;
+  background-image: url(./assets/event-page.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#event-section{
+  -webkit-backdrop-filter:blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.993);
+  border: 1.5px solid rgba(0, 0, 0, 0.18);
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  overflow: hidden;
+}
+.sub-event{
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.993);
+  border: 2px solid rgba(0, 0, 0, 0.18);
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  transition: ease .8s;
+}
+.sub-event:hover{
+  scale: 1.05;
+}
+/* ----------------------Contact Page------------------------------- */
+#Contact{
+  margin-top: -10vh;
+  background-image: url(./assets/contact-page.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#contact-section{
+  -webkit-backdrop-filter:blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 50px rgba(193, 186, 186, 0.993);
+  border: 1.5px solid rgba(0, 0, 0, 0.18);
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  overflow: hidden;
+}
+
+/* ---------------------Responsive section------------------------ */
+@media (max-width: 1344px) {
+  #Home{
+    height: 130vh;
+  }
+  #h-l-heading{
+    font-size: 2.8rem;
+  }
+  #h-l-para{
+    font-size: 1.1rem;
+  }
+  .cate{
+    height: 20rem;
+  }
+  .cate h1{
+    font-size: 2.4rem;
+  }
+  #h-about-mission{
+    width: 85%;
+  }
+  #h-about-vision{
+    width: 85%;
+  }
+  #h-about-heading{
+    font-size: 3rem;
+  }
+  #h-about-para{
+    font-size: 1.1rem;
+  }
+  .mySwiper{
+    width: 85%;
+  }
+  .program h1{
+    font-size: 2.8rem;
+  }
+  #h-donation{
+    height: 70vh;
+  }
+  #h-donate-image img{
+    width: 100%;
+  }
+  #h-donate h1{
+    width: 100%;
+  }
+  #about-section{
+    width: 80%;
+  }
+  #about-section p{
+    width: 75%;
+  }
+  #a-s-mission{
+    width: 85%;
+  }
+  #a-s-vision{
+    width: 85%;
+  }
+  #a-s-heading{
+    font-size: 3rem;
+  }
+  #a-s-para{
+    font-size: 1.1rem;
+  }
+  #program-section{
+    width: 80%;
+  }
+  #program-section p{
+    width: 70%;
+  }
+  #sub-program-1{
+    width: 80%;
+  }
+  #sub-program-1 h1{
+    font-size: 2.4rem;
+  }
+  #sub-program-2{
+    width: 80%;
+  }
+  #sub-program-2 h1{
+    font-size: 2.4rem;
+  }
+  #sub-program-3{
+    width: 80%;
+  }
+  #sub-program-3 h1{
+    font-size: 2.4rem;
+  }
+  #donate-section{
+    width: 80%;
+  }
+  #donate-section p{
+    width: 100%;
+  }
+  #d-b-f-section{
+    height: 90vh;
+  }
+  #donation-banner{
+    height: 100%;
+  }
+  #donation-banner img{
+    height: 100%;
+  }
+  #event-section{
+    width: 80%;
+  }
+  #event-section p{
+    width: 100%;
+  }
+  .sub-event{
+    width: 43%;
+  }
+  #contact-section{
+    width: 80%;
+    height: 75vh;
+  }
+}
+
+@media (max-width: 840px) {
+  #Home{
+    height: 100%;
+    background-image:none;
+    justify-content: end;
+    align-items: center;
+  }
+  #home-section{
+    flex-direction: column;
+    margin-top: 15vh;
+  }
+  #home-left{
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  #h-l-heading{
+    width: 100%;
+    font-size: 4.5rem;
+    text-align: center;
+  }
+  #h-l-para{
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  #home-categories{
+    flex-direction: column;
+  }
+  .cate{
+    width: 100%;
+  }
+  .cate h1{
+    font-size: 3rem;
+  }
+  #h-about{
+    height: 100%;
+    padding: 2rem;
+  }
+  #h-about-mission{
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  #h-a-m-left{
+    width: 80%;
+    margin-bottom: 3rem;
+  }
+  #h-a-m-right{
+    width: 80%;
+  }
+  #h-about-vision{
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  #h-a-v-left{
+    width: 80%;
+  }
+  #h-a-v-right{
+    width: 80%;
+    margin-bottom: 3rem;
+    padding-left: 0;
+  }
+  #h-about-heading{
+    font-size: 4rem;
+  }
+  #h-about-para{
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  #h-program{
+    height: 80vh;
+  }
+  .program h1{
+    font-size: 2rem;
+    height: 6rem;
+    line-height: 2.4rem;
+  }
+  #h-donation{
+    height: 100%;
+    flex-direction: column-reverse;
+  }
+  #h-donate-image{
+    width: 85%;
+  }
+  #h-donate{
+    width: 85%;
+    padding-left: 0;
+  }
+  #h-donate h1{
+    width: 100%;
+  }
+  #f-contact{
+    width: 60%;
+  }
+  #f-socialmedia{
+    width: 40%;
+  }
+
+  #about-section p{
+    width: 100%;
+  }
+  #a-second-section{
+    height: 100%;
+    padding: 2rem;
+  }
+  #a-s-mission{
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  #a-s-m-left{
+    width: 80%;
+    margin-bottom: 3rem;
+  }
+  #a-s-m-right{
+    width: 80%;
+  }
+  #a-s-vision{
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  #a-s-v-left{
+    width: 80%;
+  }
+  #a-s-v-right{
+    width: 80%;
+    margin-bottom: 3rem;
+    padding-left: 0;
+  }
+  #a-s-heading{
+    font-size: 4rem;
+  }
+  #a-s-para{
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+  #program-section p{
+    width: 100%;
+  }
+  #sub-program{
+    height: 100%;
+    padding: 10px;
+  }
+  #sub-program-1, #sub-program-3{
+    flex-direction: column;
+    width: 85%;
+  }
+  #sub-program-2{
+    flex-direction: column-reverse;
+    width: 85%;
+  }
+  .prog-text{
+    width: 100%;
+  }
+  #sub-program-1 #s-p1-heading, #sub-program-2 #s-p2-heading, #sub-program-3 #s-p3-heading{
+    font-size: 3rem;
+  }
+  .pro-img{
+    width: 100%;
+  }
+
+  #d-banner-form{
+    height: 100%;
+    padding: 2rem;
+  }
+  #d-b-f-section{
+    box-shadow: none;
+    border: none;
+  }
+  #donation-banner{
+    display: none;
+  }
+  .donation-form-container{
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.993);
+    border: 1.5px solid rgba(0, 0, 0, 0.18);
+  }
+
+  #event-heading{
+    text-align: left;
+  }
+  #sub-events-section{
+    padding: 2rem;
+  }
+  .sub-event{
+    width: 85%;
+    margin: 1rem;
+  }
+
+  #contact-section form{
+    width: 90%;
+  }
+}
+
+@media (max-width: 430px) {
+  #h-l-heading{
+    font-size: 2rem;
+  }
+  #h-l-para{
+    font-size: 1.2rem;
+  }
+  .cate h1{
+    font-size: 2rem;
+  }
+
+  #h-about-mission{
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  #h-a-m-left{
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  #h-a-m-right{
+    width: 100%;
+  }
+  #h-about-vision{
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  #h-a-v-left{
+    width: 100%;
+  }
+  #h-a-v-right{
+    width: 100%;
+    margin-bottom: 3rem;
+    padding-left: 0;
+  }
+  #h-about-heading{
+    font-size: 3rem;
+  }
+  #h-about-para{
+    font-size: 1.2rem;
+    width: 100%;
+  }
+  .program h1{
+    font-size: 1.5rem;
+    height: 8rem;
+    line-height: 1.7rem;
+  }
+  #h-donate-image{
+    width: 100%;
+  }
+  #h-donate{
+    width: 100%;
+  }
+  #h-donate h1{
+    font-size: 1rem;
+  }
+  #h-contact-us h1{
+    font-size: 3rem;
+    text-align: center;
+  }
+  #f-contact, #f-socialmedia, #f-link{
+    width: 100%;
+  }
+  #f-socialmedia{
+    align-items: start;
+  }
+  #f-link{
+    align-items: start;
+  }
+  #f-link ul{
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+  #f-link ul li a{
+    margin: 8px;
+  }
+  #copyright-section p{
+    font-size: 10px;
+  }
+  #about-section{
+    height: 70%;
+  }
+  #about-heading{
+    font-size: 1.8rem;
+  }
+  #about-section p{
+    font-size: 0.9rem;
+  }
+  #a-second-section{
+    padding: 1rem;
+  }
+  #a-s-mission{
+    margin-bottom: 2rem;
+  }
+  #a-s-m-left{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  #a-s-m-right{
+    width: 100%;
+  }
+  #a-s-v-left{
+    width: 100%;
+  }
+  #a-s-v-right{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  #a-s-heading{
+    font-size: 3rem;
+  }
+  #a-s-para{
+    font-size: 1rem;
+  }
+
+  #program-section{
+    height: 70%;
+  }
+  #program-heading{
+    font-size: 1.8rem;
+  }
+  #program-section p{
+    font-size: 0.9rem;
+  }
+  
+  #sub-program-1, #sub-program-3{
+    width: 100%;
+  }
+  #sub-program-2{
+    width: 100%;
+  }
+  .prog-text{
+    width: 100%;
+  }
+  #sub-program-1 #s-p1-heading, #sub-program-2 #s-p2-heading, #sub-program-3 #s-p3-heading{
+    font-size: 2rem;
+  }
+  #donate-section{
+    height: 70%;
+  }
+  #donate-section p{
+    font-size: 0.9rem;
+  }
+  #d-banner-form{
+    height: 100%;
+    padding: 2rem;
+  }
+  #d-b-f-section{
+    height: 100%;
+  }
+  .donation-form-container{
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.993);
+    border: 1.5px solid rgba(0, 0, 0, 0.18);
+  }
+
+  #event-heading{
+    font-size: 1.8rem;
+  }
+  #event-section p{
+    font-size: 1.2rem;
+  }
+  #sub-events-section{
+    padding: 5px;
+  }
+  .sub-event{
+    width: 100%;
+    margin: 1rem;
+  }
+  #event-details h1{
+    font-size: 1.8rem;
+  }
+  #event-details p{
+    font-size: 1rem;
+  }
+
+  #Contact{
+    height: 150vh;
+  }
+  #contact-section{
+    height: 80%;
+    width: 100%;
+  }
+  #contact-section h1{
+    font-size: 2rem;
+  }
+  #contact-section form{
+    width: 90%;
+  }
+  .name{
+    flex-direction: column;
+  }
+  .email-phone{
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1023px) {
+  #DesktopLinks{
+    display: none;
+  }
+}
