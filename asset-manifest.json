@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/NGO_Website/static/css/main.602d1e71.css",
+    "main.js": "/NGO_Website/static/js/main.efe7f5b6.js",
+    "static/media/h-donation.jpg": "/NGO_Website/static/media/h-donation.ca33ca46af732dde64e3.jpg",
+    "static/media/about-page.jpg": "/NGO_Website/static/media/about-page.b9061ea32ccf8fd51784.jpg",
+    "static/media/h-program-2.jpg": "/NGO_Website/static/media/h-program-2.c7597f82d8b20832b78d.jpg",
+    "static/media/event-page.jpg": "/NGO_Website/static/media/event-page.0ac4ca37349dbfb60407.jpg",
+    "static/media/event-4.jpg": "/NGO_Website/static/media/event-4.865b44bb87fd3b46b9dc.jpg",
+    "static/media/event-2.jpg": "/NGO_Website/static/media/event-2.90e622bc5b3fe6ddfad6.jpg",
+    "static/media/program-page.jpg": "/NGO_Website/static/media/program-page.f9ef9e8222b2e84eca84.jpg",
+    "static/media/contact-page.jpg": "/NGO_Website/static/media/contact-page.2c58754f0e9d8710db19.jpg",
+    "static/media/h-program-3.jpg": "/NGO_Website/static/media/h-program-3.d3af2877bc213d341931.jpg",
+    "static/media/event-3.jpg": "/NGO_Website/static/media/event-3.0c8e0dbc9be9dc294e3b.jpg",
+    "static/media/h-program-1.jpg": "/NGO_Website/static/media/h-program-1.19c52bee41c7b04dcc6e.jpg",
+    "static/media/event-1.jpg": "/NGO_Website/static/media/event-1.f8316196bf00f5136420.jpg",
+    "static/media/donate-page.jpg": "/NGO_Website/static/media/donate-page.ad001e1816616ce98347.jpg",
+    "static/media/h-about-first.jpg": "/NGO_Website/static/media/h-about-first.055ff6470716cfe5d5a8.jpg",
+    "static/media/donate-form.png": "/NGO_Website/static/media/donate-form.ede0c47329781f32c290.png",
+    "static/media/home.png": "/NGO_Website/static/media/home.1519e81c560203cf208c.png",
+    "static/media/h-contact.jpeg": "/NGO_Website/static/media/h-contact.a52a6ed409eba6e70901.jpeg",
+    "static/media/h-about-second.jpeg": "/NGO_Website/static/media/h-about-second.138899ba3b653079bac1.jpeg",
+    "index.html": "/NGO_Website/index.html",
+    "main.602d1e71.css.map": "/NGO_Website/static/css/main.602d1e71.css.map",
+    "main.efe7f5b6.js.map": "/NGO_Website/static/js/main.efe7f5b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.602d1e71.css",
+    "static/js/main.efe7f5b6.js"
+  ]
+}
